@@ -1,0 +1,35 @@
+/* 2.If you are using the class name,you have to a DOT. as a prefix
+3.if you are using the id name ,you have to put  
+
+4. All the id name we use in css with #*/
+body {
+    font-family: Ariel, sans-serif;
+    line-height: 1.5;
+    background-color: #e2cbf0;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+
+}
+
+#task-form {
+    display: flex;
+    /*Horizontal display setting which is dynamic*/
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+}

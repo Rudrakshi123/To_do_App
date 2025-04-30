@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <!--     <center>
+      <button onClick="startQuiz()"> Start Quiz </button>
+      </center> -->
+    <title> An Interactive TO-DO APPLICATION
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>An Interactive TO-DO APP!</h1>
+    <!--     whatever you write after the actual HTML tag is an Attribute eg.=id -->
+    <div class="container">
+        <form id="task-form">
+            <input type="text" id='task-input' placeholder="Add a new Task.">
+            <input type="date" id="due-date">
+
+            <select id="priority">
+                <option value="low">LOW</option>
+                <option value="medium">MEDIUM</option>
+                <option value="high">HIGH</option>
+            </select>
+            <button type="submit"> Add Task</button>
+        </form>
+        <ul id="task-list">
+
+            
+        </ul>
+
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
